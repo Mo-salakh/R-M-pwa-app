@@ -19,7 +19,7 @@ function AppRouter() {
 
     return (
         <>
-            <Routes basename='/R-M-pwa-app'>
+            <Routes>
               <Route path='/' element={<HomeLayout />}>
                 <Route index element={<Home />} />
                 <Route path='characters' element={<PrivateRouter><Characters /></PrivateRouter>}>

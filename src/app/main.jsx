@@ -35,7 +35,7 @@ root.render(
   <React.StrictMode>
     <AppProvider>
       <AuthProvider>
-        <BrowserRouter>
+        <BrowserRouter basename='/R-M-pwa-app'>
           <ErrorBoundary>
             <ServiceWorkerRegister />
             <App />
