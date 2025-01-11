@@ -1,0 +1,18 @@
+@media screen and (max-width:768px) {
+    .paragraph,
+    .description,
+    .home_list {
+        text-align: start;
+        font-size: 1.1rem;
+        margin-top: 14px;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+        margin: 15px 0;
+    }
+
+    .content {
+        padding: 20px;
+    }
+}

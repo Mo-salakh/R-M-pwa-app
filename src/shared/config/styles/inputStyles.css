@@ -1,0 +1,93 @@
+.signin {
+  margin: 20px 0;
+}
+  
+.signin label {
+  display: flex;
+  flex-direction: column;
+    
+}
+  
+button {
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  transition: background-color .4s;
+  min-width: 100px;
+}
+
+button:hover {
+  background-color: white;
+}
+
+
+.signin_content {
+  background-color: #f1f1f1;
+  margin-bottom: 80px;
+  padding: 2rem;
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.input {
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+}
+
+.input_box {
+  display: flex;
+  gap: 16px;
+}
+
+.input_box:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.signin .label {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.label {
+  font-size: 13px;
+}
+
+.gender {
+  display: flex;
+  gap: 12px;
+}
+
+.mantine-Radio-inner,
+.mantine-Radio-body {
+  width: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radio_box * {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-input.error label {
+  color: red; /* Цвет текста при ошибке */
+}
+
+.error-message {
+  color: red; /* Дополнительное сообщение об ошибке */
+}
+.auth_text {
+  text-align: center;
+  margin-top: 20px;
+}
